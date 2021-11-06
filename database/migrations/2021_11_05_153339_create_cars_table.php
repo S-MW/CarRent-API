@@ -20,6 +20,7 @@ class CreateCarsTable extends Migration
             $table->integer('manufacturing_year');
             $table->string('plate_number');
             $table->string('color');
+            $table->double('daily_price');
             $table->string('image_path');
             $table->string('status');
             $table->timestamps();
